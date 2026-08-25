@@ -1,0 +1,32 @@
+diff --git a/.github/workflows/main.yml b/.github/workflows/main.yml
+index a6c5dbc..b6be1bd 100644
+--- a/.github/workflows/main.yml
++++ b/.github/workflows/main.yml
+@@ -20,6 +20,7 @@ jobs:
+         uses: abozanona/pacman-contribution-graph@main
+         with:
+           github_user_name: ${{ github.repository_owner }}
++          games: 'galaga'
+ 
+       # Push the generated SVG to the output branch
+       - name: push pacman-contribution-graph.svg to the output branch
+diff --git a/README.md b/README.md
+index 62ccfbb..0e9ff1a 100644
+--- a/README.md
++++ b/README.md
+@@ -192,11 +192,11 @@ Only what is demonstrable from the repositories and merged PRs above.
+ 
+ ## My Contribution Graph
+ 
+-<!-- galga -->
++<!-- galaga -->
+ <picture>
+-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Takitxt/Takitxt/output/galga-contribution-graph-dark.svg">
+-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Takitxt/Takitxt/output/galga-contribution-graph.svg">
+-    <img alt="galga contribution graph" src="https://raw.githubusercontent.com/Takitxt/Takitxt/output/galga-contribution-graph.svg">
++    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Takitxt/Takitxt/output/galaga-contribution-graph-dark.svg">
++    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Takitxt/Takitxt/output/galaga-contribution-graph.svg">
++    <img alt="galaga contribution graph" src="https://raw.githubusercontent.com/Takitxt/Takitxt/output/galaga-contribution-graph.svg">
+ </picture>
+ 
+ <!-- FILL: add an email if you want to be reachable by recruiters and maintainers.
