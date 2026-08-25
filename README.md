@@ -151,42 +151,12 @@ Only what is demonstrable from the repositories and merged PRs above. Each icon 
 
 </div>
 
-<p align="center"><sub>Computer vision — YOLO models · face clustering, via PictoPy contributions. No standalone brand icons exist for these, so they're noted here rather than faked above.</sub></p>
 
 <!-- FILL: this section is deliberately conservative. Add an icon only for things you
      have shipped with — an interviewer will ask about every entry here. -->
 
 ---
 
-## Activity
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/dashboard-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="./assets/dashboard-light.svg">
-    <img alt="Merged pull requests by month, review load, and label distribution" src="./assets/dashboard-dark.svg" width="100%">
-  </picture>
-</div>
-
-<p align="center">
-  <sub>
-    The card above is generated inside this repository by a scheduled GitHub
-    Action, so nothing about it depends on an external service staying up.
-  </sub>
-</p>
-
-<div align="center">
-
-<a href="https://github.com/Takitxt">
-  <img alt="Most used languages" height="150"
-       src="https://github-readme-stats.vercel.app/api/top-langs/?username=Takitxt&layout=compact&langs_count=6&hide_border=true&bg_color=00000000&title_color=58a6ff&text_color=8b949e&hide_title=true">
-</a>
-
-</div>
-
-<p align="center"><sub>Language mix across public repositories. This one card is served by the shared <code>github-readme-stats</code> instance — the only third-party dependency in this file, and the only thing here that can render as a broken image. Self-host it to remove that risk.</sub></p>
-
----
 
 ## Contact
 
