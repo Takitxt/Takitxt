@@ -3,45 +3,13 @@
 **Software engineer in training · student · open-source contributor**
 `@Takitxt` · he/him · [takitxt.vercel.app](https://takitxt.vercel.app/)
 
-I work on someone else's production codebase in public. Nine of my pull requests
-are merged into [PictoPy](https://github.com/AOSSIE-Org/PictoPy), a privacy-first
-desktop image gallery under the AOSSIE organisation — starting with a
-`good first issue` bug fix on 16 July 2026 and, thirty-two days later, converting
-its indexing pipeline from serial to parallel. Everything below is verifiable from
-that PR history.
-
-<!-- FILL: add one line stating what you are looking for — internship, new grad
-     role, GSoC with AOSSIE. Recruiters scan for this and it is the single
-     highest-value sentence you can add to this file. I have left it out rather
-     than guessing. -->
 
 ---
 
 ## Contents
 
-[How I work](#how-i-work) · [Open source](#open-source) · [Technologies](#technologies) · [Contact](#contact)
+· [Open source](#open-source) · [Technologies](#technologies) · [Contact](#contact)
 
----
-
-## How I work
-
-**I earn context before I ask for trust.** My first PR to PictoPy was a
-`good first issue` bug fix — the settings page kept rendering a YOLO model that had
-already been swapped out. Small, low-risk, and it taught me the review culture and
-the layout of the repo before I touched anything load-bearing. A documentation
-patch came three days later. The features came after that.
-
-**I treat review comments as the deliverable.** There are 112 review comments
-across those nine PRs. [#1424](https://github.com/AOSSIE-Org/PictoPy/pull/1424)
-alone drew 44 and a formal "changes requested" before it merged. Reworking it
-repeatedly was the most useful thing that happened to me this year.
-
-**Depth over breadth.** One organisation, one repository, nine merges. I could
-have scattered small commits across twenty projects for a greener graph. Nine
-reviewed merges into a single real codebase is a claim someone can actually check.
-
-**Bugs first, features second.** Five of my nine PRs are labelled `bug`. Fixing
-things is how I learn where a system's assumptions are hiding.
 
 ---
 
