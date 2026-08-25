@@ -1,192 +1,185 @@
-# Varun Sharma
+```text
+╔══════════════════════════════════════════════════════════╗
+║  T A K I T X T   ·   M I S S I O N   C O N T R O L       ║
+╚══════════════════════════════════════════════════════════╝
+```
 
-**Software engineer in training · CS student · open-source contributor**
-`@Takitxt` · he/him · [takitxt.vercel.app](https://takitxt.vercel.app/)
+```text
+┌─ OPERATOR ───────────────────────────────────────────────┐
+│ callsign   Takitxt                                       │
+│ name       Varun Sharma  ·  he/him                       │
+│ trajectory student → software engineer                   │
+│ theatre    AOSSIE-Org/PictoPy  (upstream)                │
+│ state      [ACTIVE] shipping  ·  last merge 2 days ago   │
+└──────────────────────────────────────────────────────────┘
+```
 
-I work on someone else's production codebase in public. Nine of my pull requests
-are merged into [PictoPy](https://github.com/AOSSIE-Org/PictoPy), a privacy-first
-desktop image gallery under the AOSSIE organisation — starting with a
-documentation fix in mid-July 2026 and, five weeks later, converting its indexing
-pipeline from serial to parallel. Everything below is verifiable from that PR
-history.
+> I learn a codebase by fixing its bugs. My first patch to **PictoPy** was a
+> good-first-issue. Thirty-two days later I was rewriting how it indexes.
 
-<!-- FILL: add one line stating what you are looking for — internship, new grad
-     role, GSoC with AOSSIE. Recruiters scan for this and it is the single
-     highest-value sentence you can add to this file. I have left it out rather
-     than guessing. -->
+<br>
 
----
+## Merge telemetry
 
-## Contents
+Nine merged pull requests in `AOSSIE-Org/PictoPy`, one still open, none reverted.
 
-[How I work](#how-i-work) · [Open source](#open-source) · [Merged pull requests](#merged-pull-requests) · [Projects](#projects) · [Technologies](#technologies) · [Activity](#activity) · [Contact](#contact)
-
----
-
-## How I work
-
-**I earn context before I ask for trust.** My first PR to PictoPy was a
-documentation alignment fix. Nothing in it was impressive; that was the point. It
-taught me the review culture and the layout of the repo at zero risk to anyone's
-runtime. The features came after.
-
-**I treat review comments as the deliverable.** Across nine PRs, maintainers left
-112 comments. [#1424](https://github.com/AOSSIE-Org/PictoPy/pull/1424) alone drew
-44 and a formal "changes requested" before it merged. Reworking it repeatedly was
-the most useful thing that happened to me this year.
-
-**Depth over breadth.** One organisation, one repository, nine merges. I could
-have scattered small commits across twenty projects for a greener graph. Nine
-reviewed merges into a single real codebase is a claim someone can actually check.
-
-**Bugs first, features second.** Five of my nine PRs are labelled `bug`. Fixing
-things is how I learn where a system's assumptions are hiding.
-
----
-
-## Open source
-
-### `AOSSIE-Org/PictoPy` — contributor
-
-A desktop image gallery with a privacy-first architecture: object detection and
-face clustering run on-device, so photos never leave the machine.
-
-| | |
-| :-- | :-- |
-| Pull requests merged | **9** |
-| Reverted | **0** |
-| Currently open | **1** |
-| Review comments received | **112** |
-| First merge | 16 July 2026 |
-| Most recent merge | 23 August 2026 |
-| Areas touched | indexing · YOLO model management · folder management · semantic search · UI · docs |
-
-**Trajectory.** Four of the nine started life as `good first issue`, and all four
-are in the July cluster. The two August PRs labelled `backend` are
-[#1447](https://github.com/AOSSIE-Org/PictoPy/pull/1447) (a stale async state that
-hung semantic search) and
-[#1464](https://github.com/AOSSIE-Org/PictoPy/pull/1464) (serial indexing made
-parallel). The progression from cosmetic fixes to the indexing path took six weeks.
-
-<!-- FILL: AOSSIE runs programmes I could not verify from your profile. If you are
-     working toward GSoC with them, state it explicitly here — it changes how a
-     reviewer reads this whole section. -->
-
----
-
-## Merged pull requests
-
-Newest first. Auto-updated daily; the state below is accurate as of 25 August 2026.
-
-<!-- PR-FEED:START -->
-| PR | Title | Labels | Merged |
-| :-- | :-- | :-- | :-- |
-| [#1466](https://github.com/AOSSIE-Org/PictoPy/pull/1466) | Cropped image fix in `addImagesCropDialog` | `bug` `UI` | 23 Aug 2026 |
-| [#1464](https://github.com/AOSSIE-Org/PictoPy/pull/1464) | Indexing works in parallel instead of series | `backend` `enhancement` `frontend` | 17 Aug 2026 |
-| [#1447](https://github.com/AOSSIE-Org/PictoPy/pull/1447) | Fix infinite "searching by meaning" loading state on back navigation | `backend` `bug` | 4 Aug 2026 |
-| [#1443](https://github.com/AOSSIE-Org/PictoPy/pull/1443) | Folder-management loading-state cleanup | `cleanup` `UI` | 4 Aug 2026 |
-| [#1424](https://github.com/AOSSIE-Org/PictoPy/pull/1424) | Implementation of profile-picture uploads | `frontend` `good first issue` | 4 Aug 2026 |
-| [#1380](https://github.com/AOSSIE-Org/PictoPy/pull/1380) | Folder appears empty if AI tagging is enabled before indexing completes | `bug` `frontend` `good first issue` | 24 Jul 2026 |
-| [#1387](https://github.com/AOSSIE-Org/PictoPy/pull/1387) | Fix navbar disappearing on scroll past one viewport | `bug` `frontend` | 20 Jul 2026 |
-| [#1384](https://github.com/AOSSIE-Org/PictoPy/pull/1384) | Documentation: download-section alignment, remove link underlines | `documentation` `good first issue` | 19 Jul 2026 |
-| [#1371](https://github.com/AOSSIE-Org/PictoPy/pull/1371) | Settings page does not update active YOLO model after change in Model Manager | `bug` `frontend` `good first issue` | 16 Jul 2026 |
-<!-- PR-FEED:END -->
-
-[View all my pull requests →](https://github.com/AOSSIE-Org/PictoPy/pulls?q=is%3Apr+author%3ATakitxt)
-
----
-
-## Projects
-
-### chat_app — author
-
-Realtime chat application on the MERN stack. React client, Express and Node
-server, MongoDB for persistence, Socket.IO for live message delivery and presence.
-Built end to end.
-
-**Stack:** React · Node.js · Express · MongoDB · Socket.IO
-**Repository:** [Takitxt/chat_app](https://github.com/Takitxt/chat_app)
-
-### PictoPy — contributor
-
-Nine merged PRs across the indexing pipeline, model management and UI. See
-[Open source](#open-source) above.
-
-**Stack:** Python · frontend · on-device inference
-**Repository:** [AOSSIE-Org/PictoPy](https://github.com/AOSSIE-Org/PictoPy)
-
-### DSA — author
-
-Daily algorithm and data-structure solutions in C++, maintained as a working log
-rather than a showcase.
-
-**Stack:** C++
-**Repository:** [Takitxt/DSA](https://github.com/Takitxt/DSA)
-
-### Personal site — author
-
-[takitxt.vercel.app](https://takitxt.vercel.app/), deployed on Vercel.
-
-<!-- FILL: list the stack for your site if you would like it here. -->
-
----
-
-## Technologies
-
-Only what is demonstrable from the repositories and merged PRs above.
-
-| Category | Technologies |
-| :-- | :-- |
-| **Languages** | JavaScript · Python · C++ |
-| **Frontend** | React |
-| **Backend** | Node.js · Express · Socket.IO |
-| **Data** | MongoDB |
-| **Computer vision** | YOLO models · face clustering *(via PictoPy contributions)* |
-| **Infrastructure** | Vercel · Git · GitHub Actions |
-
-<!-- FILL: this table is deliberately conservative. Add rows only for things you
-     have shipped with — an interviewer will ask about every entry here. -->
-
----
-
-## Activity
+```text
+┌─ MERGE TELEMETRY  ·  AOSSIE-Org/PictoPy ─────────────────┐
+│ jul 2026 ██████████████████░░░░  4                       │
+│ aug 2026 ██████████████████████  5                       │
+├──────────────────────────────────────────────────────────┤
+│ merged    9              open      1                     │
+│ reverted  0              reviews   112 comments          │
+│ window    38 days        approved  8 of 9                │
+└──────────────────────────────────────────────────────────┘
+```
 
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/dashboard-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/dashboard-light.svg">
-    <img alt="Merged pull requests by month, review load, and label distribution" src="./assets/dashboard-dark.svg" width="100%">
+    <img alt="Contribution dashboard: merged PRs, review load, and label surface area" src="./assets/dashboard-dark.svg" width="100%">
   </picture>
 </div>
 
-<p align="center">
-  <sub>
-    Generated inside this repository by a scheduled GitHub Action — no third-party
-    service, so nothing here can break when someone else's server goes down.
-  </sub>
-</p>
+<sub>Generated in-repo by `.github/workflows/profile-sync.yml`. No third-party service, no rate-limit surprises.</sub>
 
-<div align="center">
+<br>
 
-<a href="https://github.com/Takitxt">
-  <img alt="Most used languages" height="150"
-       src="https://github-readme-stats.vercel.app/api/top-langs/?username=Takitxt&layout=compact&langs_count=6&hide_border=true&bg_color=00000000&title_color=58a6ff&text_color=8b949e&hide_title=true">
-</a>
+## Upstream feed
 
-</div>
+Every line below is a maintainer-reviewed change that shipped.
 
-<p align="center"><sub>Language mix across public repositories.</sub></p>
+<!-- PR-FEED:START -->
+| | repo | PR | change | merged |
+| :-- | :-- | :-- | :-- | :-- |
+| ✔ | `AOSSIE-Org/PictoPy` | [#1466](https://github.com/AOSSIE-Org/PictoPy/pull/1466) | Cropped image fix in `addImagesCropDialog` | 2026-08-23 |
+| ✔ | `AOSSIE-Org/PictoPy` | [#1464](https://github.com/AOSSIE-Org/PictoPy/pull/1464) | Indexing runs in parallel instead of series | 2026-08-17 |
+| ✔ | `AOSSIE-Org/PictoPy` | [#1447](https://github.com/AOSSIE-Org/PictoPy/pull/1447) | Fix infinite "searching by meaning" hang | 2026-08-04 |
+| ✔ | `AOSSIE-Org/PictoPy` | [#1443](https://github.com/AOSSIE-Org/PictoPy/pull/1443) | Folder-management loading-state cleanup | 2026-08-04 |
+| ✔ | `AOSSIE-Org/PictoPy` | [#1424](https://github.com/AOSSIE-Org/PictoPy/pull/1424) | Implement profile-picture uploads | 2026-08-04 |
+| ✔ | `AOSSIE-Org/PictoPy` | [#1380](https://github.com/AOSSIE-Org/PictoPy/pull/1380) | Folder appeared empty when tagging preceded indexing | 2026-07-24 |
+| ✔ | `AOSSIE-Org/PictoPy` | [#1387](https://github.com/AOSSIE-Org/PictoPy/pull/1387) | Fix navbar vanishing on long scroll | 2026-07-20 |
+| ✔ | `AOSSIE-Org/PictoPy` | [#1384](https://github.com/AOSSIE-Org/PictoPy/pull/1384) | Docs: download-section alignment | 2026-07-19 |
+| ✔ | `AOSSIE-Org/PictoPy` | [#1371](https://github.com/AOSSIE-Org/PictoPy/pull/1371) | Settings page ignored active YOLO model change | 2026-07-16 |
+<!-- PR-FEED:END -->
+
+<sub>This table rewrites itself daily. The rows above are the real state as of 2026-08-25.</sub>
+
+<br>
+
+## Surface area
+
+Where the nine PRs actually landed, by label.
+
+```text
+┌─ SURFACE AREA  ·  by PR label ───────────────────────────┐
+│ bug         ██████████████████  5                        │
+│ frontend    ██████████████████  5                        │
+│ good-first  ██████████████░░░░  4                        │
+│ backend     ███████░░░░░░░░░░░  2                        │
+│ ui          ███████░░░░░░░░░░░  2                        │
+│ cleanup     ████░░░░░░░░░░░░░░  1                        │
+│ docs        ████░░░░░░░░░░░░░░  1                        │
+├──────────────────────────────────────────────────────────┤
+│ entered on good-first-issues, now on the backend         │
+└──────────────────────────────────────────────────────────┘
+```
+
+All four `good first issue` labels fall in the opening nineteen days. Both
+`backend` labels are from August. The drift is the point.
+
+<br>
+
+## Active modules
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### `PictoPy`
+
+Privacy-first desktop image gallery — detects objects and clusters faces.
+
+**Upstream:** [AOSSIE-Org/PictoPy](https://github.com/AOSSIE-Org/PictoPy)
+**Role:** contributor · 9 merged
+**Surface:** Python · frontend · indexing
+**Status:** actively contributing
+
+The indexing path used to run serially. [#1464](https://github.com/AOSSIE-Org/PictoPy/pull/1464) made it parallel.
+
+</td>
+<td width="50%" valign="top">
+
+### `chat_app`
+
+Real-time chat over websockets rather than polling.
+
+**Repo:** [Takitxt/chat_app](https://github.com/Takitxt/chat_app)
+**Role:** author
+**Surface:** React · Node · Express · MongoDB · Socket.IO
+**Status:** built end to end
+
+Full MERN stack, wired for realtime rather than polling.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### `DSA`
+
+Daily algorithm work in C++ — the practice log behind the rest.
+
+**Repo:** [Takitxt/DSA](https://github.com/Takitxt/DSA)
+**Role:** author
+**Surface:** C++
+**Status:** ongoing
+
+</td>
+<td width="50%" valign="top">
+
+### `takitxt.vercel.app`
+
+Personal site.
+
+**Live:** [takitxt.vercel.app](https://takitxt.vercel.app/)
+**Status:** shipped
+
+<!-- FILL: add the stack for your site if you want it listed — I could not
+     verify it from your profile, so I have deliberately left it blank. -->
+
+</td>
+</tr>
+</table>
+
+<br>
+
+## Runtime
+
+```text
+┌─ RUNTIME  ·  verified from shipped code ─────────────────┐
+│ lang    JavaScript   Python   C++                        │
+│ web     React  ·  Node  ·  Express  ·  Socket.IO         │
+│ data    MongoDB                                          │
+│ vision  YOLO models  ·  face clustering                  │
+│ deploy  Vercel                                           │
+└──────────────────────────────────────────────────────────┘
+```
+
+<!-- FILL: this list is intentionally short — it contains only technologies
+     provable from your pinned repos and merged PRs. Add Tauri / Rust /
+     FastAPI / TypeScript etc. only if you have genuinely worked in them. -->
+
+<br>
 
 ---
 
-## Contact
-
-| | |
-| :-- | :-- |
-| Website | [takitxt.vercel.app](https://takitxt.vercel.app/) |
-| LinkedIn | [in/varuns347](https://linkedin.com/in/varuns347) |
-| X | [@Varun_S_347](https://x.com/Varun_S_347) |
-| GitHub | [@Takitxt](https://github.com/Takitxt) |
-
-<!-- FILL: add an email if you want to be reachable by recruiters and maintainers.
-     Right now there is no way to contact you off-platform. -->
+<div align="center">
+<sub>
+<a href="https://takitxt.vercel.app/">site</a> ·
+<a href="https://x.com/Varun_S_347">x</a> ·
+<a href="https://linkedin.com/in/varuns347">linkedin</a> ·
+<a href="https://github.com/AOSSIE-Org/PictoPy/pulls?q=is%3Apr+author%3ATakitxt">all my PRs</a>
+</sub>
+</div>
