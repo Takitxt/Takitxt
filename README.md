@@ -190,6 +190,15 @@ Only what is demonstrable from the repositories and merged PRs above.
 | X | [@Varun_S_347](https://x.com/Varun_S_347) |
 | GitHub | [@Takitxt](https://github.com/Takitxt) |
 
+## My Contribution Graph
+
+<!-- galga -->
+<picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Takitxt/Takitxt/output/galga-contribution-graph-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Takitxt/Takitxt/output/galga-contribution-graph.svg">
+    <img alt="galga contribution graph" src="https://raw.githubusercontent.com/Takitxt/Takitxt/output/galga-contribution-graph.svg">
+</picture>
+
 <!-- FILL: add an email if you want to be reachable by recruiters and maintainers.
      Right now there is no way to contact you off-platform. -->
 
