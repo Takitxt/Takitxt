@@ -3,6 +3,12 @@
 **Software engineer in training · student · open-source contributor**
 `@Takitxt` · he/him · [takitxt.vercel.app](https://takitxt.vercel.app/)
 
+---
+---
+
+## Projects
+
+1. Chatty - Realtime chat app using Socket.io ( like Whatsapp )
 
 ---
 
@@ -38,7 +44,7 @@ hung semantic search) and
 [#1464](https://github.com/AOSSIE-Org/PictoPy/pull/1464) (serial indexing made
 parallel). Getting from the first merge to the indexing work took thirty-two days.
 
-
+---
 
 ## Technologies
 
