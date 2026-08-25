@@ -19,7 +19,7 @@ that PR history.
 
 ## Contents
 
-[How I work](#how-i-work) · [Open source](#open-source) · [Merged pull requests](#merged-pull-requests) · [Projects](#projects) · [Technologies](#technologies) · [Activity](#activity) · [Contact](#contact)
+[How I work](#how-i-work) · [Open source](#open-source) · [Technologies](#technologies) · [Contact](#contact)
 
 ---
 
@@ -70,68 +70,7 @@ hung semantic search) and
 [#1464](https://github.com/AOSSIE-Org/PictoPy/pull/1464) (serial indexing made
 parallel). Getting from the first merge to the indexing work took thirty-two days.
 
-<!-- FILL: AOSSIE runs programmes I could not verify from your profile. If you are
-     working toward GSoC with them, state it explicitly here — it changes how a
-     reviewer reads this whole section. -->
 
----
-
-## Merged pull requests
-
-Newest first. Auto-updated daily; the state below is accurate as of 25 August 2026.
-
-<!-- PR-FEED:START -->
-| PR | Title | Labels | Merged |
-| :-- | :-- | :-- | :-- |
-| [#1466](https://github.com/AOSSIE-Org/PictoPy/pull/1466) | Cropped image fix in `addImagesCropDialog` | `bug` `UI` | 23 Aug 2026 |
-| [#1464](https://github.com/AOSSIE-Org/PictoPy/pull/1464) | Indexing works in parallel instead of series | `backend` `enhancement` `frontend` | 17 Aug 2026 |
-| [#1447](https://github.com/AOSSIE-Org/PictoPy/pull/1447) | Fix infinite "searching by meaning" loading state on back navigation | `backend` `bug` | 4 Aug 2026 |
-| [#1443](https://github.com/AOSSIE-Org/PictoPy/pull/1443) | Folder-management loading-state cleanup | `cleanup` `UI` | 4 Aug 2026 |
-| [#1424](https://github.com/AOSSIE-Org/PictoPy/pull/1424) | Implementation of profile-picture uploads | `frontend` `good first issue` | 4 Aug 2026 |
-| [#1380](https://github.com/AOSSIE-Org/PictoPy/pull/1380) | Folder appears empty if AI tagging is enabled before indexing completes | `bug` `frontend` `good first issue` | 24 Jul 2026 |
-| [#1387](https://github.com/AOSSIE-Org/PictoPy/pull/1387) | Fix navbar disappearing on scroll past one viewport | `bug` `frontend` | 20 Jul 2026 |
-| [#1384](https://github.com/AOSSIE-Org/PictoPy/pull/1384) | Documentation: download-section alignment, remove link underlines | `documentation` `good first issue` | 19 Jul 2026 |
-| [#1371](https://github.com/AOSSIE-Org/PictoPy/pull/1371) | Settings page does not update active YOLO model after change in Model Manager | `bug` `frontend` `good first issue` | 16 Jul 2026 |
-<!-- PR-FEED:END -->
-
-[View all my pull requests →](https://github.com/AOSSIE-Org/PictoPy/pulls?q=is%3Apr+author%3ATakitxt)
-
----
-
-## Projects
-
-### chat_app — author
-
-Realtime chat application on the MERN stack. React client, Express and Node
-server, MongoDB for persistence, Socket.IO pushing messages as they happen rather
-than polling for them. Built end to end.
-
-**Stack:** React · Node.js · Express · MongoDB · Socket.IO
-**Repository:** [Takitxt/chat_app](https://github.com/Takitxt/chat_app)
-
-### PictoPy — contributor
-
-Nine merged PRs across the indexing pipeline, model management and UI. See
-[Open source](#open-source) above.
-
-**Stack:** Python · frontend · object detection and face clustering
-**Repository:** [AOSSIE-Org/PictoPy](https://github.com/AOSSIE-Org/PictoPy)
-
-### DSA — author
-
-Daily algorithm and data-structure solutions in C++, maintained as a working log
-rather than a showcase.
-
-**Stack:** C++
-**Repository:** [Takitxt/DSA](https://github.com/Takitxt/DSA)
-
-### Personal site — author
-
-[takitxt.vercel.app](https://takitxt.vercel.app/), deployed on Vercel.
-
-<!-- FILL: list the stack for your site if you would like it here. -->
-
----
 
 ## Technologies
 
