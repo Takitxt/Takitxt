@@ -135,18 +135,25 @@ rather than a showcase.
 
 ## Technologies
 
-Only what is demonstrable from the repositories and merged PRs above.
+Only what is demonstrable from the repositories and merged PRs above. Each icon links to the tech's own site.
 
-| Category | Technologies |
-| :-- | :-- |
-| **Languages** | JavaScript · Python · C++ |
-| **Frontend** | React |
-| **Backend** | Node.js · Express · Socket.IO |
-| **Data** | MongoDB |
-| **Computer vision** | YOLO models · face clustering *(via PictoPy contributions)* |
-| **Infrastructure** | Vercel |
+<div align="center">
 
-<!-- FILL: this table is deliberately conservative. Add rows only for things you
+<a href="https://developer.mozilla.org/docs/Web/JavaScript" title="JavaScript"><img src="https://cdn.simpleicons.org/javascript/00D4FF" width="42" height="42" alt="JavaScript"></a>&nbsp;&nbsp;
+<a href="https://www.python.org" title="Python"><img src="https://cdn.simpleicons.org/python/00D4FF" width="42" height="42" alt="Python"></a>&nbsp;&nbsp;
+<a href="https://isocpp.org" title="C++"><img src="https://cdn.simpleicons.org/cplusplus/00D4FF" width="42" height="42" alt="C++"></a>&nbsp;&nbsp;
+<a href="https://react.dev" title="React"><img src="https://cdn.simpleicons.org/react/00D4FF" width="42" height="42" alt="React"></a>&nbsp;&nbsp;
+<a href="https://nodejs.org" title="Node.js"><img src="https://cdn.simpleicons.org/nodedotjs/00D4FF" width="42" height="42" alt="Node.js"></a>&nbsp;&nbsp;
+<a href="https://expressjs.com" title="Express"><img src="https://cdn.simpleicons.org/express/00D4FF" width="42" height="42" alt="Express"></a>&nbsp;&nbsp;
+<a href="https://socket.io" title="Socket.IO"><img src="https://cdn.simpleicons.org/socketdotio/00D4FF" width="42" height="42" alt="Socket.IO"></a>&nbsp;&nbsp;
+<a href="https://www.mongodb.com" title="MongoDB"><img src="https://cdn.simpleicons.org/mongodb/00D4FF" width="42" height="42" alt="MongoDB"></a>&nbsp;&nbsp;
+<a href="https://vercel.com" title="Vercel"><img src="https://cdn.simpleicons.org/vercel/00D4FF" width="42" height="42" alt="Vercel"></a>
+
+</div>
+
+<p align="center"><sub>Computer vision — YOLO models · face clustering, via PictoPy contributions. No standalone brand icons exist for these, so they're noted here rather than faked above.</sub></p>
+
+<!-- FILL: this section is deliberately conservative. Add an icon only for things you
      have shipped with — an interviewer will ask about every entry here. -->
 
 ---
@@ -183,12 +190,22 @@ Only what is demonstrable from the repositories and merged PRs above.
 
 ## Contact
 
-| | |
-| :-- | :-- |
-| Website | [takitxt.vercel.app](https://takitxt.vercel.app/) |
-| LinkedIn | [in/varuns347](https://linkedin.com/in/varuns347) |
-| X | [@Varun_S_347](https://x.com/Varun_S_347) |
-| GitHub | [@Takitxt](https://github.com/Takitxt) |
+<table align="center" width="100%">
+<tr>
+<td align="center" width="25%">
+<a href="https://takitxt.vercel.app/" title="Portfolio"><img src="https://cdn.simpleicons.org/vercel/00D4FF" width="48" height="48" alt="Website"></a>
+</td>
+<td align="center" width="25%">
+<a href="https://linkedin.com/in/varuns347" title="LinkedIn"><img src="https://cdn.simpleicons.org/linkedin/00D4FF" width="48" height="48" alt="LinkedIn"></a>
+</td>
+<td align="center" width="25%">
+<a href="https://x.com/Varun_S_347" title="X"><img src="https://cdn.simpleicons.org/x/00D4FF" width="48" height="48" alt="X"></a>
+</td>
+<td align="center" width="25%">
+<a href="https://github.com/Takitxt" title="GitHub"><img src="https://cdn.simpleicons.org/github/00D4FF" width="48" height="48" alt="GitHub"></a>
+</td>
+</tr>
+</table>
 
 ## My Contribution Graph
 
