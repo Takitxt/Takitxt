@@ -4,18 +4,15 @@
 `@Takitxt` · he/him · [takitxt.vercel.app](https://takitxt.vercel.app/)
 
 ---
+## Contents
+
+· [Open source](#open-source) · [Technologies](#technologies) · [Contact](#contact)
+
 ---
 
 ## Projects
 
 1. Chatty - Realtime chat app using Socket.io ( like Whatsapp )
-
----
-
-## Contents
-
-· [Open source](#open-source) · [Technologies](#technologies) · [Contact](#contact)
-
 
 ---
 
