@@ -6,13 +6,17 @@
 ---
 ## Contents
 
-· [Open source](#open-source) · [Technologies](#technologies) · [Contact](#contact)
+Projects · [Open source](#open-source) · [Technologies](#technologies) · [Contact](#contact)
 
 ---
 
 ## Projects
 
-1. Chatty - Realtime chat app using Socket.io ( like Whatsapp )
+1. Chatty - Realtime chat app using Socket.io ( like Whatsapp ): 
+- Chat App is a real-time messaging platform that enables users to send and receive messages instantly.
+- You can check out the repo readme.md for more info : https://github.com/Takitxt/chat_app
+
+
 
 ---
 
