@@ -6,7 +6,7 @@
 ---
 ## Contents
 
-Projects · [Open source](#open-source) · [Technologies](#technologies) · [Contact](#contact)
+[Projects](#Projects) · [Open source](#open-source) · [Technologies](#technologies) · [Contact](#contact)
 
 ---
 
